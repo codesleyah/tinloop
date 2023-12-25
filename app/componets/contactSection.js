@@ -3,20 +3,28 @@ import {EnvelopeClosedIcon, HomeIcon, MobileIcon } from "@radix-ui/react-icons"
 
 export default function ContactSection(){
     return(
-        <div className="w-full bg-white p-32 grid grid-cols-2 text-gray-700 gap-12">
-            <div>
-                <img src="/about.jpg" />
+        <div className="w-full bg-white p-8 md:p-32 flex flex-col md:grid md:grid-cols-2 text-gray-700 gap-12">
+            <div className="w-full flex flex-col gap-4">
+                <h1 className="md:hidden text-2xl md:text-4xl text-blue-500 font-semibold">Get In Touch</h1>
+                <input className="border-2 h-12 rounded p-2"
+                    placeholder="full name" />
+                <input className="border-2 h-12 rounded p-2"
+                    placeholder="phone number" />
+                <input className="border-2 h-12 rounded p-2"
+                    placeholder="email" />
+                <textarea className="rounded border-2 p-2"
+                    rows={10}
+                    placeholder="message" />
+                <div>
+                    <button className="rounded py-2 px-4 shadow bg-blue-500 text-white">Send Message</button>
+                </div>
             </div>
             <div className="flex flex-col gap-4">
-                <h1 className="text-4xl text-blue-500 font-semibold">Who We Are</h1>
-                <p className="text-base ">TINLOOP LAB SUPPLIES PVT LTD is a Zimbabwean wholly 
-                    owned company registered under the companies act. 
-                    We supply a comprehensive range of laboratory 
-                    equipment such as</p>
-                <ul>
+                <h1 className="hidden md:block text-2xl md:text-4xl text-blue-500 font-semibold">Get In Touch</h1>
+                <ul className="flex flex-col gap-4 text-gray-700">
                     <li className="flex items-center gap-4"><MobileIcon /> +263714814319</li>
                     <li className="flex items-center gap-4"><EnvelopeClosedIcon />sales@tinlooplabsupplies.co.zw</li>
-                    <li className="flex items-center gap-4"><HomeIcon />7721 Belvedere West, Harar</li>
+                    <li className="flex items-center gap-4"><HomeIcon />7721 Belvedere West, Harare , Zimbabwe</li>
                 </ul>
             </div>
         </div>

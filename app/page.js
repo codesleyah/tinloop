@@ -4,6 +4,9 @@ import AboutSection from './componets/aboutSection';
 import ServicesSection from './componets/servicesSection';
 import WhyusSection from './componets/whyusSection';
 import TalktousSection from './componets/talktousSection';
+import ContactSection from './componets/contactSection';
+import Footer from './componets/footer';
+import TestimonialSection from './componets/testimonialSection';
 
 export default function Home() {
   return (
@@ -14,6 +17,9 @@ export default function Home() {
       <ServicesSection />
       <WhyusSection />
       <TalktousSection />
+      <TestimonialSection />
+      <ContactSection />
+      <Footer />
     </main>
   )
 }
