@@ -8,30 +8,30 @@ export default function TestimonialSection(){
             <div className="w-full flex flex-col md:grid grid-cols-3 gap-4">
                 <div className="bg-white text-gray-900 rounded shadow-xl flex flex-col items-center justify-center p-4 text-center gap-4">
                     <Image src="/qot.png" alt="quotes" height={50} width={50} />
-                    <p className="text-sm md:text-base">"As a research scientist, the quality and purity of chemicals I use
+                    <p className="text-sm md:text-base">&ldquo;As a research scientist, the quality and purity of chemicals I use
                      are paramount. Every order from Tinloop has been spot-on. Their
                       consistency and attention to detail have greatly accelerated our 
-                      breakthroughs in the lab. A trusted partner for top-notch chemical supplies!"
+                      breakthroughs in the lab. A trusted partner for top-notch chemical supplies!&ldquo;
                     </p>
                     <h1 className="font-semibold">-Munashe Gurumuto</h1>
                 </div>
                 <div className="bg-white text-gray-900 rounded shadow-xl flex flex-col items-center justify-center p-4 text-center gap-4">
                     <Image src="/qot.png" alt="quotes" height={50} width={50} />
-                    <p className="text-sm md:text-base">"Navigating the world of pharmaceuticals requires dependable partners. 
+                    <p className="text-sm md:text-base">&ldquo;Navigating the world of pharmaceuticals requires dependable partners. 
                     Tinloop&apos;s range of chemicals has been instrumental in our drug development 
                     processes. Not only are their products of the 
                     highest quality, but their customer service and prompt 
-                    deliveries have also set them apart. Highly recommended!"
+                    deliveries have also set them apart. Highly recommended!&ldquo;
                     </p>
                     <h1 className="font-semibold">-Michelle Chopago</h1>
                 </div>
                 <div className="bg-white text-gray-900 rounded shadow-xl flex flex-col items-center justify-center p-4 text-center gap-4">
                     <Image src="/qot.png" alt="quotes" height={50} width={50} />
-                    <p className="text-sm md:text-base">"In the realm of environmental solutions, precision is crucial. 
+                    <p className="text-sm md:text-base">&ldquo;In the realm of environmental solutions, precision is crucial. 
                     I&apos;ve relied on Tinloop for years to provide eco-friendly 
                     chemicals that meet stringent standards. Their commitment to sustainability, 
                     coupled with their expert knowledge, makes them an invaluable 
-                    resource in my consultancy work. Kudos to the team!"
+                    resource in my consultancy work. Kudos to the team!&ldquo;
                     </p>
                     <h1 className="font-semibold">-Daiton Gumunyu</h1>
                 </div>
