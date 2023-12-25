@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 
-export default function(){
+export default function Footer(){
     return(
         <div className="w-full flex flex-col md:flex-row justify-between p-8 bg-gray-900">
             <p className="text-xs">Copyrights &copy; 2024 Tinloop Lab Supplies. All rights reserved</p>
