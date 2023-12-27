@@ -7,6 +7,7 @@ import TalktousSection from './componets/talktousSection';
 import ContactSection from './componets/contactSection';
 import Footer from './componets/footer';
 import TestimonialSection from './componets/testimonialSection';
+import Slider from './componets/slider';
 
 export default function Home() {
   return (
@@ -18,7 +19,9 @@ export default function Home() {
       <WhyusSection />
       <TalktousSection />
       <TestimonialSection />
-      <ContactSection />
+      <div id="contact">
+        <ContactSection />
+      </div>
       <Footer />
     </main>
   )
