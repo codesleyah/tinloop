@@ -1,5 +1,6 @@
-import {EnvelopeClosedIcon, HomeIcon, MobileIcon } from "@radix-ui/react-icons"
-import Image from "next/image"
+import {EnvelopeClosedIcon, HomeIcon, MobileIcon } from "@radix-ui/react-icons";
+import Image from "next/image";
+import Link from "next/link";
 
 export default function ContactSection(){
     return(
@@ -27,10 +28,15 @@ export default function ContactSection(){
                     <li className="flex items-center gap-4"><HomeIcon />7721 Belvedere West, Harare , Zimbabwe</li>
                 </ul>
                 <div className="w-full flex items-center justify-start gap-4">
-                    <Image src="/fb.png" alt="facebook logo"  height={50} width={50}/>
-                    <Image src="/ig.png" alt="intsagram logo"  height={50}  width={50}/>
-                    <Image src="/x.png" alt="x logo" height={50}  width={50}/>
-                    <Image src="/in.png" alt="linkedin logo" height={50}  width={50}/>
+                    <Link href="https://www.linkedin.com/company/tinloop-lab-supplies/">
+                        <Image src="/in.png" alt="facebook logo"  height={50} width={50}/>
+                    </Link>
+                    <Link href="https://www.facebook.com/profile.php?id=61554884257091">
+                        <Image src="/fb.png" alt="facebook logo"  height={50} width={50}/>
+                    </Link>
+                    <Link href="https://wa.me/message/MCXC6PM46UTFJ1">
+                        <Image src="/wa.png" alt="whatsapp logo"  height={50} width={50}/>
+                    </Link>
                 </div>
             </div>
         </div>
