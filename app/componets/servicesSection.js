@@ -10,7 +10,7 @@ export default function ServicesSection(){
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
                     <h1 className="font-semibold text-sm md:text-base">Education &  Research</h1>
-                    <p className="text-sm">weather you are a high school 
+                    <p className="text-sm">Weather you are a high school 
                         or a tetiary institution. 
                         deliver the best lab materials
                         to meet your needs</p>
@@ -22,10 +22,8 @@ export default function ServicesSection(){
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
                     <h1 className="font-semibold text-sm md:text-base">Medical Failities</h1>
-                    <p className="text-sm">we can provide high quality PPE 
-                        for any medical facility be it 
-                        a small clinic or a large 
-                        established hospital</p>
+                     <p className="text-sm">We supply various equipment and specialized equipment. We also supply 
+                     reagants, chemicals, consumables and safety equipment</p>
                 </div>
             </div>
             <div className="flex flex-col gap-2 items-center justify-center relative">
@@ -34,7 +32,7 @@ export default function ServicesSection(){
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
                     <h1 className="font-semibold text-sm md:text-base">Mining</h1>
-                    <p className="text-xs md:text-sm">we have all the chemicals required
+                    <p className="text-xs md:text-sm">We have all the chemicals required
                     to make your mining easier as well 
                     as PPE to protect your workers</p>
                 </div>
