@@ -10,7 +10,7 @@ export default function ServicesSection(){
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
                     <h1 className="font-semibold text-sm md:text-base">Education &  Research</h1>
-                    <p className="text-sm">Weather you are a high school 
+                    <p className="text-sm">Weather a high school 
                         or a tetiary institution. 
                         deliver the best lab materials
                         to meet your needs</p>
@@ -21,7 +21,7 @@ export default function ServicesSection(){
                     <img src="/med.jpg"/>
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
-                    <h1 className="font-semibold text-sm md:text-base">Medical Failities</h1>
+                    <h1 className="font-semibold text-sm md:text-base">Medical Facilities</h1>
                      <p className="text-sm">We supply various equipment and specialized equipment. We also supply 
                      reagants, chemicals, consumables and safety equipment</p>
                 </div>
@@ -39,11 +39,11 @@ export default function ServicesSection(){
             </div>
             <div className="flex flex-col gap-2 items-center justify-center relative">
                 <div className="w-full h-full">
-                    <img src="/ing.jpg"/>
+                    <img src="/inini.jpg"/>
                 </div>
                 <div className="bg-black opacity-75 p-2 absolute bottom-0 text-white">
                     <h1 className="font-semibold text-sm md:text-base">Industry</h1>
-                    <p className="text-xs md:text-sm ">we supply chemicals, lab equipment 
+                    <p className="text-xs md:text-sm ">We supply chemicals, lab equipment 
                         and ppe to a wide range of specialized industries be it 
                         heavy or light industries.</p>
                 </div>

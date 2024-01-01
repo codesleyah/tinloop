@@ -10,7 +10,7 @@ export default function Banner(){
                 <h1 className="text-3xl md:text-6xl font-semibold">
                 <span className="text-blue-500">Tinloop</span> Lab Supplies</h1>
                 <p className="text-sm md:text-base text-black">Your trusted partner in procurement and supply of laboratory 
-                 equipment, apparatus, reagants, raw materials, consumables and safety equipment</p>
+                 equipment, apparatus, reagants, raw materials,chemicals, consumables and safety equipment</p>
                 <div>
                     <Link  href="#contact" className="bg-blue-500 flex rounded py-2 px-8 text-white font-semibold items-center justify-center gap-2"> <FileIcon /> Get your quotation now</Link>
                 </div>
@@ -22,7 +22,7 @@ export default function Banner(){
                 <h1 className="text-3xl font-semibold md:hidden">
                     <span className="text-blue-500">Tinloop</span> Lab Supplies</h1>
                 <p className="text-sm text-black md:hidden text-center">Your trusted partner in procurement and supply of laboratory 
-                 equipment, apparatus, reagants, raw materials, consumables and safety equipment</p>
+                 equipment, apparatus, reagants, raw materials,chemicals, consumables and safety equipment</p>
                     <div></div>
                 <div className="relative ">
                     <Slider />

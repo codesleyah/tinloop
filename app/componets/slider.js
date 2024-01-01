@@ -10,6 +10,7 @@ export default function Slider(){
     "/micro.jpg",
     "/flask.jpg",
     "/llb.jpg",
+    "/inini.jpg",
   ]
 
   return(

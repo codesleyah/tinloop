@@ -4,7 +4,7 @@ export default function TestimonialSection(){
     return(
         <div className="w-full flex flex-col gap-8 p-8 md:p-32 bg-gray-900 items-center justify-center">
             <h1 className="text-2xl md:text-4xl font-semibold">Testimonials</h1>
-            <p className="text-base md:text-2xl text-center">what our clients say about us</p>
+            <p className="text-base md:text-2xl text-center">What our clients say about us</p>
             <div className="w-full flex flex-col md:grid grid-cols-3 gap-4">
                 <div className="bg-white text-gray-900 rounded shadow-xl flex flex-col items-center justify-center p-4 text-center gap-4">
                     <Image src="/qot.png" alt="quotes" height={50} width={50} />
